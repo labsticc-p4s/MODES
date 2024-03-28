@@ -21,6 +21,6 @@ MODES will boast security of software systems by helping them securely
 evolve and adapt to different types of evolution events. MODES will do so by leveraging on multi-model
 management techniques and contributing new languages and methodologies.
 
-![image tooltip here](/images/approach.png)
+![overview]({{ site.baseurl }}/images/approach.png)
 
 
