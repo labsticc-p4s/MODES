@@ -1,0 +1,55 @@
+<aside>
+	<div class="container">
+		<nav>
+			<ul>
+				<li><a href="{{ site.baseurl }}">Home</a></li>
+				{% for page in site.pages %} {% if page.title %}
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %} {% endfor %}
+			</ul>
+			</li>
+			</ul>
+		</nav>
+	</div>
+</aside>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<header>
+	<p><h1>{{ site.title }}<br> 
+        <h1>MODES: Model-Driven Evolution for Secured Systems</h1></p>
+	<br>
+	<br> 
+		
+	 <div class="row">
+  <div class="column">
+    <img src="/images/ANR-logo.png" alt="Trulli" align="left" height="100px" width="200px">
+  </div>
+  <div class="column">
+    <img src="/images/p4s.png" alt="Trulli" align="left" height="100px" width="200px">
+  </div>
+  <div class="column">
+    <img src="/images/imt2.png" alt="Trulli" align="left" height="100px" width="200px">
+  </div>
+</div> 
+</header>
+
+
+ 
