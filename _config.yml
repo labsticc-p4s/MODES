@@ -23,7 +23,7 @@ email: salvador.martinez@imt-atlantique.fr
 description: >- # this means to ignore newlines until "baseurl:"
   ANR MODES project website
 baseurl: "/MODES" # the subpath of your site, e.g. /blog
-url: "http://labsticc-p4s.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://labsticc-p4s.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: salvamartinezp
 github_username:  salvamartinez
 
