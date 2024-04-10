@@ -2,73 +2,74 @@
 layout: page
 title: Offers
 permalink: /Offers/
+
 ---
 
-### PhD Offer
+In the context of the ANR JCJC MODES project (Model-Driven Evolution for
+Secured Systems), we seek a PhD candidate to work on the security consistency
+management for complex systems. The PhD candidate will work in the P4S
+team at IMT Atlantique & Lab-STICC (CNRS), Brest, France. The position is
+for 3 years from Fall 2024.
 
-Continuous Secure Evolution of Software System’ Artefacts.
+## Offer Details
 
-Location: IMT Atlantique, Brest
-Start date: January 2022
-Keywords: security, software engineering, software evolution, model-driven engineering.
-Team : P4S/SHARP/LabSTICC (UMR 6285)
-Contact : Salvador Martínez: salvador.martinez(at)imt-atlantique.fr & Fabien Dagnat: fabien.dagnat(at)imt-atlantique.fr
+**Location**: IMT Atlantique - Brest Campus, France.
 
-Announce
+**Start date**: Fall 2024
 
-Applications are invited for a PhD position on security of software. Summarizing, the project aims at studying how to evolve a software system while maintaining its security properties and requirements.
+**Keywords**: security, software engineering, software evolution, model-driven, engineering, SecDevOps
 
-The student will work in the P4S team at IMT Atlantique & Lab-STICC (CNRS), Brest, France The position is for 3 years from January 2022.
+**Team**: P4S/SHARP/LabSTICC (UMR 6285)
 
-Position requirements:
-
-    Master’s degree or equivalent in Computer Science, with a specialization in Software Engineering
-    Knowledge or special interest in security, e.g.: privacy, confidentiality, etc
-    Solid software development and programming skills
-    Good communication skills in English
-
-IMT Atlantique is a French elite technological university located in the beautiful city of Brest, west of France (4 hours by train from Paris). Pleasant working conditions will be offered to the student.
-
-To get more information and apply, please send a complete CV with a corresponding motivation letter, recommendation letter(s) and a list of both already published papers and open source contributions (if any) to Salvador Martínez: salvador.martinez(at)imt-atlantique.fr Fabien Dagnat: fabien.dagnat(at)imt-atlantique.fr
+**Contact**: [Salvador Martinez](mailto:salvador.martinez@imt-atlantique.fr).
+[Fabien Dagnat](mailto:fabien.dagnat@imt-atlantique.fr).
+[Jean-Christophe Bach](mailto:jc.bach@imt-atlantique.fr).
 
 
-===================================================
-SUMMARY
-===================================================
+## Position requirements
 
-Information and Communication Technologies have been integrated in many different
-environments, including critical ones (i.e., environments where a system fail regarding
-its missions, business operations, safety and/or security would have severe adverse
-impacts that range from data loss to even loss of life). This integration makes systems
-prone to a wider range of security issues and consequently, research and industry efforts
-have been directed at enhancing the security of these systems by integrating existing
-security mechanisms (controls), developing new ones and advocating for
-secure-by-construction development processes. Unfortunately, systems are far from being
-static, i.e., it may be modified on required maintenance/evolution phases.
+- Master’s degree or equivalent in Computer Science, with a specialization in Software Engineering
+- Knowledge or special interest in security, e.g.: privacy, confidentiality, etc
+- Solid software development and programming skills
+- Good communication skills in English
 
-Therefore, security needs to be integrated as a core concern on the evolution phase of
-software systems in what we call a continuous secure evolution paradigm. Providing the
-means to efficiently assure that the security of a software system is not being affected
-negatively by a given evolution event is the high-level objective of this Ph.D thesis. In
-order to do so, we intend to use the tools and techniques of software engineering such as
-for example Model-Driven Engineering (MDE). To reach this scientific objective at least
-the following aspect will be explored:
+To get more information and apply, please send a complete CV with a corre-
+sponding motivation letter, recommendation letter(s) and a list of both already
+published papers and open source contributions (if any) to any of the contacts listed above
 
-1. mechanisms to obtain / compute a security status. This: i) may (partially) exist as
-documentation of the system; ii) may be built by hand or iii) may be (semi)automatically
-”discovered”.
+## Summary
 
-2. where required, mechanisms to link security knowledge (e.g., desired security
-properties, access-control policies, etc.) to the software system.
+Security is a critical concern in current software intensive systems in which vul-
+nerabilities may have a severe impact and produce damages ranging from data
+privacy losses to even physical harm (e.g., cyber-physical systems). To allevi-
+ate this problem, security mechanisms (e.g., access-control, cryptography, etc.)
+have been integrated in many different components and artefacts so that it is
+possible to implement a security policy meeting the security requirements of a
+given system. Unfortunately, nowadays systems are very complex, encompass
+many different (evolving) components (e.g., code, libraries, models, databases,
+configurations), and interact with changing environments (e.g., they may be re-
+deployed). In this scenario, security is scattered between different components
+and artifacts, and consequently, the problem of security consistency arises (e.g.,
+dependent components with available security mechanisms may fail to synchro-
+nize leading to potential security vulnerabilities). Contributing solutions to this
+problem is the high-level objective of this PhD proposal.
 
-3. mechanisms to efficiently evaluate/propagate changes of the software system w.r.t the
-security status (e.g., we want to be able to determine which security properties are
-affected by a given change).
+### Objectives
 
-The work of the thesis will be done for software for spacecraft. Indeed, software for
-satelites are large, complex, critical and developped by large consortiums with
-strong security requirements. A case study from ESA should be the testbed for the thesis
-proposals.
+The concrete scientific and technical objectives of this proposal may be
+adapted to the expertise and skills of the successful candidate as long as they
+fall in the general objective of contributing to security consistency management.
+We list in the following some suitable contributions:
 
+- reverse engineering the security status of existing/deployed complex sys-
+tems. This may include the means to: 1) represent and manage the se-
+curity dependencies between components/artifacts; 2) express consistency
+requirements.
+- mechanisms to detect inconsistencies and semi-automatically repair them.
+As with the concrete scientific and technical objectives, the application do-
+main for the works of this project is open and adaptable to the interests and
+knowledge of the successful candidate. Nevertheless, the P4S team is currently
+very active in the domain of digital twins, particular complex systems that may
+greatly benefit from security consistency.
 
 

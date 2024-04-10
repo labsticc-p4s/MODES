@@ -6,7 +6,7 @@ permalink: /contact/
 
 
 
-Salvador Martinez [salvador.martinez@imt-atlantique.fr](mailto:salvador.martinez@imt-atlantique.fr).
+[Salvador Martinez](mailto:salvador.martinez@imt-atlantique.fr).
 
 
 

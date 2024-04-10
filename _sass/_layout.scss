@@ -5,6 +5,8 @@ body {
 	font-size: 1.1em;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
+	text-align: justify;
+  	text-justify: inter-word;
 }
 h1,
 h2,
@@ -58,6 +60,11 @@ time {
 .container {
 	max-width: $content-width;
 	margin: 0 auto;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Aside */

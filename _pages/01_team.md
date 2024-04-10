@@ -4,7 +4,7 @@ title: Team
 permalink: /Team/
 ---
 
-### Coordinator
+### Project Coordinator
 
  * Salvador Martínez, Associate Professor - IMT-Atlantique, Brest
  
@@ -13,6 +13,7 @@ permalink: /Team/
  * Antoine Beugnard, Full Professor - IMT-Atlantique, Brest
  * Fabien Dagnat, Associate Professor (HDR) - IMT-Atlantique, Brest
  * Jean-Christophe  Bach, Associate Professor - IMT-Atlantique, Brest
+ * Sylvain Guerin, Post doctoral researcher - IMT-Atlantique, Brest
  
 
 
